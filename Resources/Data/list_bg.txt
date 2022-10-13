@@ -1,0 +1,6 @@
+handbag_id	colour	serial_no	model	image_name
+1	Blue	12345	Blue Bag	Bag_Blue.png
+2	Azure	12346	Azure Abg	Bag_Azure.png
+3	Grey	12347	Grey Bag	Bag_Grey.png
+4	Maroon	12348	Maroon Bag	Bag_Maroon.png
+5	Pink	12349	Pink Bag	Bag_Pink.png

@@ -1,0 +1,6 @@
+jacket_id	colour	serial_no	model	image_name
+1	Brown	12345	Blazer Jacket	Jacket_Blazer.png
+2	Brown	12346	Bomber Jacket	Jacket_Bomber.png
+3	Black	12347	Biker Jacket	Jacket__Biker.png
+4	Brown	12348	Café Racer	Jacket__Cafe_Racer.png
+5	Black	12349	Field Jacket	Jacket_Field.png
