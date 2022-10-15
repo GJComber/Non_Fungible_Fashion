@@ -1,0 +1,14 @@
+{
+    "description": "Limited edition Mens Rolex Watch",
+    "image": "ipfs//QmfKbjghewk34YU6yNTArchX6Lm25iz5WQ9qJRxrSodyzD",
+    "name": "NFF000001",
+    "attributes": [
+        {"trait_type": "watch",
+        "value": "Rolex"},
+        { "trait_type": "build_number",
+        "value": "001"
+    }
+   
+]
+
+}
