@@ -16,22 +16,39 @@ load_dotenv()
 w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 
 # Set Page Configuration
-st.set_page_config(layout="wide", initial_sidebar_state='collapsed')
+st.set_page_config(layout="centered", initial_sidebar_state='collapsed')
 
 # Header and Title Screen
 image = Image.open('../Resources/Images/LOGOHEADER.PNG')
-col1, col2, col3 = st.columns([1,5,1])
+col1, col2, col3 = st.columns([1,6,1])
+
 with col1:
     st.write("")
 
 with col2:
-    st.image(image, width = 1000)
+    st.image('../Resources/Images/LOGOHEADER.PNG')
 
 with col3:
     st.write("")
-    
-# st.markdown("<h1 style='text-align: center; color: white;'>ALL YOUR FAVOURITE BRANDS, IN-PERSON & ON THE BLOCKCHAIN:</h1>", unsafe_allow_html=True)
 
+# Setup for visualisations        
+image_comparison(
+img1="../Resources/Images/shoes.png",
+img2="../Resources/Images/wallet.png",
+label1="real fashion",
+label2="digital assets"
+)
+
+st.markdown(
+    """
+    <h2 style='text-align: center'>
+    ALL YOUR FAVOURITE BRANDS, IN-PERSON & ON THE BLOCKCHAIN
+    </h2>
+    """,
+    unsafe_allow_html=True,
+)
+
+# Contract connectivity
 @st.cache(allow_output_mutation=True)
 def load_contract():
 
@@ -53,22 +70,53 @@ def load_contract():
 # Load the contract
 contract = load_contract()
 
-st.title("ALL YOUR FAVOURITE BRANDS, IN-PERSON & ON THE BLOCKCHAIN")
-st.markdown("# Choose an account to get started:")
-accounts = w3.eth.accounts
-address = st.selectbox("Select Account", options=accounts)
-artwork_uri = st.text_input("Select item Owner", options=accounts)
-if st.button("Register your digital asset"):
-    tx_hash = contract.functions.registerArtwork(address, artwork_uri).transact({'from': address, 'gas': 1000000})
-    receipt = w3.eth.waitForTransactionReceipt(tx_hash)
-    st.write("Transaction receipt mined:")
-    st.write(dict(receipt))
-st.markdown("---")  
+# Account connection in UI
+# st.markdown("# Choose an account to get started:")
+# accounts = w3.eth.accounts
+# address = st.selectbox("Select Account", options=accounts)
+# artwork_uri = st.text_input("Select item Owner", options=accounts)
+# if st.button("Register your digital asset"):
+#     tx_hash = contract.functions.registerArtwork(address, artwork_uri).transact({'from': address, 'gas': 1000000})
+#     receipt = w3.eth.waitForTransactionReceipt(tx_hash)
+#     st.write("Transaction receipt mined:")
+#     st.write(dict(receipt))
+# st.markdown("---")
 
+add_selectbox = st.sidebar.selectbox(
+    "How would you like to be contacted?",
+    ("Email", "Home phone", "Mobile phone")
+)
 
+# # Using "with" notation
+# with st.sidebar:
+#     st.image('../Resources/Images/LOGOHEADER.PNG')
 
+# Image database saved harddrive
 
+data1 = "../Resources/Images/shoes.png"
+data2 = "../Resources/Images/wallet.png"
+data3 = '../Resources/Images/LOGOHEADER.PNG'
+dataset = [data1, data2, data3]
+# if st.form('Check out this!'):
+#     user_choice = st.button
+#     st.image(user_choice)
+if "visibility" not in st.session_state:
+    st.session_state.visibility = "visible"
+    st.session_state.disabled = False
 
+st.write('Access catalogue')
+with st.form("option choice", clear_on_submit=False):
+    catalogue_choice = st.selectbox(label='here options', 
+    options= dataset)
+   # Every form must have a submit button.
+    submitted = st.form_submit_button("Submit")
+    if submitted:
+        st.session_state.catalogue_choice = catalogue_choice
+        item_list = [catalogue_choice]
+        st.image(item_list, width=400)
+        st.write("end")
+
+st.image(dataset, width=300)
 
 
 
