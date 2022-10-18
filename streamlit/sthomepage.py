@@ -34,7 +34,7 @@ with col3:
 # Setup for visualisations        
 image_comparison(
 img1="../Resources/Images/shoes.png",
-img2="../Resources/Images/wallet.png",
+img2="../Resources/Images/cryptoWallet.jpg",  # image changed
 label1="real fashion",
 label2="digital assets"
 )
@@ -94,7 +94,7 @@ add_selectbox = st.sidebar.selectbox(
 # Image database saved harddrive
 
 data1 = "../Resources/Images/shoes.png"
-data2 = "../Resources/Images/wallet.png"
+data2 = "../Resources/Images/CryptoWallet().jpg" # image changed
 data3 = '../Resources/Images/LOGOHEADER.PNG'
 dataset = [data1, data2, data3]
 # if st.form('Check out this!'):
@@ -116,7 +116,7 @@ with st.form("option choice", clear_on_submit=False):
         st.image(item_list, width=400)
         st.write("end")
 
-st.image(dataset, width=300)
+st.image(dataset, width=200)  # reduced from 300 to 200
 
 
 
