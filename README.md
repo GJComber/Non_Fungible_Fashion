@@ -23,14 +23,14 @@ To install streamlit run pip install streamlit
 
 Before you get started, you're going to need a few things:
 
-    *Your favorite IDE or text editor
-    *Python 3.7 - Python 3.10
-    *PIP
+   *Your favorite IDE or text editor
+   *Python 3.7 - Python 3.10
+   *PIP
 
 ## Solidity
 
-Website: https://soliditylang.org/
-Documentation: https://docs.soliditylang.org/en/v0.8.17/
+*Website: https://soliditylang.org/
+*Documentation: https://docs.soliditylang.org/en/v0.8.17/
 
 
 
