@@ -29,16 +29,16 @@ Before you get started, you're going to need a few things:<br>
 
 ## Solidity
 
-*Website: https://soliditylang.org/ <br>
-*Documentation: https://docs.soliditylang.org/en/v0.8.17/ <br>
+Website: https://soliditylang.org/ <br>
+Documentation: https://docs.soliditylang.org/en/v0.8.17/ <br>
 
+## Remix 
 
+Website: https://remix-project.org/ <br>
+Documentation : https://remix-ide.readthedocs.io/en/latest/ <br>
 
 ## Non Fungible Tokens
 
-Website:  <br>
-Documentation: https://docs.streamlit.io/ <br>
-To install streamlit run pip install streamlit <br>
 
 ## IPFS and Piniata
 
