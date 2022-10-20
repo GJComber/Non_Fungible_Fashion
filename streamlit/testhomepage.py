@@ -10,6 +10,7 @@ import json
 from web3 import Web3
 from dotenv import load_dotenv
 import base64
+from pinata import pin_file_to_ipfs, convert_data_to_json, pin_json_to_ipfs
 
 load_dotenv()
 
@@ -50,20 +51,40 @@ st.markdown(
 )
 
 # Contract connectivity
+# @st.cache(allow_output_mutation=True)
+# def load_contract():
+
+#     # Load the contract ABI
+#     with open(Path('../contracts/compiled/fashion_abi.json')) as f:
+#         fashion_abi = json.load(f)
+
+#     # Set the contract address (this is the address of the deployed contract)
+#     contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
+
+#     # Get the contract
+#     contract = w3.eth.contract(
+#         address=contract_address,
+#         abi=fashion_abi
+#     )
+
+#     return contract
+
+# Load the contract
 @st.cache(allow_output_mutation=True)
 def load_contract():
 
     # Load the contract ABI
-    with open(Path('../contracts/compiled/fashion_abi.json')) as f:
-        fashion_abi = json.load(f)
+    with open(Path('../contracts/compiled/certificate_abi.json')) as f:
+        contract_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)
-    contract_address = os.getenv("SMART_CONTRACT_ADDRESS")
+    contract_address = Web3.toChecksumAddress(os.getenv("SMART_CONTRACT_ADDRESS"))
+
 
     # Get the contract
     contract = w3.eth.contract(
         address=contract_address,
-        abi=fashion_abi
+        abi=contract_abi
     )
 
     return contract
@@ -268,11 +289,33 @@ items = {
     "../Resources/Images/WatchSwiss Images/Watches_Tagheuer.png",
     "../Resources/Images/WatchSwiss Images/Watches_Vacheron_Constantin.png"]   
 }
-
+address = w3.eth.accounts[0]
+buyer = Web3.toChecksumAddress(address)
 
 for i in items[choice]:
     st.image(i)
-    st.button(label="Buy now", key = {i})
+    if st.button(label="Buy now", key = {i}):
+        ipfs_hash = pin_file_to_ipfs(i)
+        item_uri = f"ipfs://{ipfs_hash}"
+        token_json = {
+            "name": choice,
+            "image": item_uri
+        }
+        json_data = convert_data_to_json(token_json)
+
+    # Pin the json to IPFS with Pinata
+        json_ipfs_hash = pin_json_to_ipfs(json_data)
+
+        tx_hash = contract.functions.awardCertificate(
+        buyer,
+        json_ipfs_hash
+        ).transact({'from': buyer, 'gas': 1000000})
+        receipt = w3.eth.waitForTransactionReceipt(tx_hash)
+        st.write("Transaction receipt mined:")
+        st.write(dict(receipt))
+    st.markdown("---")
+
+
 # products = { 
 #     "Prada": Prada_Display_list,
 #     "DandG" : DandG_Display_list,
