@@ -37,10 +37,14 @@ Documentation: https://docs.soliditylang.org/en/v0.8.17/ <br>
 Website: https://remix-project.org/ <br>
 Documentation : https://remix-ide.readthedocs.io/en/latest/ <br>
 
-## Non Fungible Tokens
+## Non Fungible Tokens in High-end Fashion market
+
+The high end luxury good market is worth USD 349.1 Billion in 2022 which will grow at a CAGR rate of 3.7% will make it worth USD419 Billion in 2027. Per year about USD 30 Billion is lost due to counterfit items and having a NFT as a proof of purchse will make it hard for people to profit from fake goods. NFT will not only validate the authenticity of the goods but it will also provide an excellent opportunity
 
 
 ## IPFS and Piniata
+
+Inter Planetary File System (IPFS) is a decentriled peer to peer file sharing network which performs a content addressing to uniquely identify each file in a global namespace. Pinata enables NFT storage on the IPFS network.
 
 
 
