@@ -34,7 +34,7 @@ https://gateway.pinata.cloud/ipfs/QmfKbjghewk34YU6yNTArchX6Lm25iz5WQ9qJRxrSodyzD
 https://gateway.pinata.cloud/ipfs/QmaMdqhJ73CaQ6EGr9jBhVGvhq6NnnLkTVGCth9gCmenA8 (Watches_Omega.png)
 https://gateway.pinata.cloud/ipfs/QmRJhf6kFvMSzEA5TcgUM4GjLBig4ddEWKxeNt2pSG8F6E (Watches_Patek_Philippe.png)
 https://gateway.pinata.cloud/ipfs/QmWxFetLjU3vAT43U9RwxkN7utr3PUmTzMhCQUNQcmx22H (Watches_Tagheuer.png)
-https://gateway.pinata.cloud/ipfs/QmbqgGWo1CVVGD7k87CuHc54V1WWP6UyaTKSWWdz7hjr2T (Wathes_Vacheron_Constantin.png)
+https://gateway.pinata.cloud/ipfs/QmbqgGWo1CVVGD7k87CuHc54V1WWP6UyaTKSWWdz7hjr2T (Watches_Vacheron_Constantin.png)
 
 
 
