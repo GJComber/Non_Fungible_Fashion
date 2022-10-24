@@ -10,9 +10,21 @@
 
 This app provides a Streamlit based user interface where the  user gets to choose between multiple items and this app mints a Non Fungible Token with the purchase of a physical product. The NFT is then transferred to user defind wallet address. 
 
-This project has a Streamlit UI to buy designer products which mints a Non Fungible Token (NFT) as proof of ownership generated with the purchase of that product. The NFT transfers to the users specified wallet address. 
+This project has a Streamlit UI to buy designer products which mints a Non Fungible Token (NFT) as proof of ownership generated with the purchase of that product. The NFT transfers to the users specified wallet address.
 
-# Requirements
+**The presentation video for this project is located here:**
+
+https://www.youtube.com/watch?v=pL4to61njoM
+
+# Concept
+
+Fintech startup 'Non Fungible Fashion' has developed a prototype
+stage user interface to demonstrate the security and quality of life benefits an anti-
+counterfeit tool can implement. A measure such as this can decrease the illegal trade of
+fakes, aiming to minimise the frustrations of a loyal customer and maximise the
+profits for the producer of authentic high-end goods across a globe-spanning,
+evolving market, all in real-time.
+
 
 ## Streamlit
 
