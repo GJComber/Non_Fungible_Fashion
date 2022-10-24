@@ -95,9 +95,9 @@ accounts = account_opt_dict.keys()
 choice = st.selectbox("Select Brand:", options=accounts)
 
 vendor = account_opt_dict[choice]
-brand = choice  # do ineed this?
+brand = choice  
 
-
+# Frontpage UI text
 
 st.write(choice, "uses this wallet to pay into")
 st.write(vendor)
@@ -110,7 +110,7 @@ st.write("### Exclusive selections from the ",brand, "designer range" )
 
 url = "https://gateway.pinata.cloud/ipfs/"
 
-
+# Image library
 items = {
 "Prada" : 
     ["../Resources/Images/Prada Images/Bag_Beige.png",
@@ -152,7 +152,7 @@ items = {
 }
 #address = w3.eth.accounts[0]
 buyer = Web3.toChecksumAddress('0x3129C700695F3408dE351dBD96d3B995909dF298')
-
+#Loop for display, transactions and NFT generation
 for i in items[choice]:
     st.image(i)
     if st.button(label="Buy now", key = {i}):
@@ -170,7 +170,7 @@ for i in items[choice]:
     # Pin the json to IPFS with Pinata
         json_ipfs_hash = pin_json_to_ipfs(json_data)
         item_uri = f"ipfs://{json_ipfs_hash}"
-
+#for transacting with Web3 accounts
         tx = contract.functions.awardCertificate(
         buyer,
         item_uri
@@ -184,9 +184,7 @@ for i in items[choice]:
         st.sidebar.write(dict(receipt))
         #st.sidebar.write(item_uri)
         st.sidebar.image(i)
-        #st.sidebar.image('https://gateway.pinata.cloud/'image'')
-        #st.sidebar.write(f"('https://gateway.pinata.cloud/)'image')
-        #st.sidebar.image('https://gateway.pinata.cloud/ipfs/QmX8dLLwBkBfzuWxC62aHrdWzTvVRLgeFAUcDeHa49UJ3Z')
+        
     st.markdown("---")
 
 
