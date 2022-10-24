@@ -8,9 +8,9 @@
 
 # Introduction
 
-This app provides a Streamlit based user interface where the  user gets to choose between multiple items and this app mints a Non Fungible Token with the purchase of a physical product. The NFT is then transferred to user defind wallet address. 
+This project provides a Streamlit based user interface where the  user gets to choose between multiple items and this app mints a Non Fungible Token with the purchase of a physical product. The NFT is then transferred to a user defined wallet address. 
 
-This project has a Streamlit UI to buy designer products which mints a Non Fungible Token (NFT) as proof of ownership generated with the purchase of that product. The NFT transfers to the users specified wallet address.
+Direct from the Streamlit UI the user can buy designer products which mint a Non Fungible Token (NFT) as proof of ownership generated with the purchase of that product. The NFT transfers to the users specified wallet address.
 
 **The presentation video for this project is located here:**
 
