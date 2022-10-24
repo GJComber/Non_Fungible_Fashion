@@ -1,0 +1,460 @@
+{"Prada":[
+    {	
+    "description":	"Limited edition Beige Bag",
+    "image": 	"../Resources/Images/Prada Images/Bag_Beige.png",
+    "name": 	"NFFBGB000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value":	"Beige"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+           
+    {	
+    "description":	"Limited edition Blue Bag",
+    "image": 	"../Resources/Images/Prada Images/Bag_Blue.png",
+    "name": 	"NFFBBL000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Blue"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Grey Bag",
+    "image": 	"../Resources/Images/Prada Images/Bag_Grey.png",
+    "name": 	"NFFBGG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Grey"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+    {	
+    "description":	"Limited edition Dark Prada Glasses",
+    "image": 	"../Resources/Images/Prada Images/Glasses_Dark_Rad.png",
+    "name": 	"NFFPDG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Dark Prada"}, 
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+    {	
+    "description":	"Limited edition Chelsea shoes",
+    "image": 	"../Resources/Images/Prada Images/Shoe_Chelsea.png",
+    "name": 	"NFFCHS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Chelsea"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+    {	
+    "description":	"Limited edition Prada Black shoes",
+    "image": 	"../Resources/Images/Prada Images/Shoe_Rad_Black.png",
+    "name": 	"NFFPDS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Black Prada"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+                                           
+    {	
+    "description":	"Limited edition Shiny Choo shoes",
+    "image": 	"../Resources/Images/Prada Images/Shoe_Shiny_Choo.png",
+    "name": 	"NFFSCS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Shiny Choo"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }
+],
+
+ "D&G":[    
+    {	
+    "description":	"Limited edition Leather Bag",
+    "image": 	"../Resources/Images/DandG Images/Bag_Leather.png",
+    "name": 	"NFFBGL000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Leather"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+            
+    {	
+    "description":	"Limited edition Maroon Bag",
+    "image": 	"../Resources/Images/DandG Images/Bag_Maroon.png",
+    "name": 	"NFFBGM000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Maroon"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+    {	
+    "description":	"Limited edition White Bag",
+    "image": 	"../Resources/Images/DandG Images/Bag_White.png",
+    "name": 	"NFFBGW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"White"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },        	    
+
+    {	
+    "description":	"Limited edition Black & Gold Glasses",
+    "image": 	"../Resources/Images/DandG Images/Glasses_Black_Gold.png",
+    "name": 	"NFFBGG000001",
+    "attributes": 	
+    [	
+        { "trait_type": 	"Glasses",
+        "value": 	"Black Gold"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+		
+    {	
+    "description":	"Limited edition Dolce & Gabana glasses with chain",
+    "image": 	"../Resources/Images/DandG Images/Glasses_DG_Chain.png",
+    "name": 	"NFFDGG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Dolce & Gabana"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+
+    {	
+    "description":	"Limited edition Pink glasses with Chain",
+    "image": 	 "../Resources/Images/DandG Images/Glasses_Pink.png",
+    "name": 	"NFFPKG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Pink Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition White Sneakers",
+    "image": 	"../Resources/Images/DandG Images/Shoe_Sneakers.png",
+    "name": 	"NFFWSS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Sneakers"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }
+],
+
+"Harrods":[
+    {	
+    "description":	"Limited edition Ray Ban Glasses",
+    "image": 	"../Resources/Images/Harrods Images/Glasses_Black_Ray.png",
+    "name": 	"NFFRBG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Black Ray Ban"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+
+    {	
+    "description":	"Limited edition Biker Jacket",
+    "image": 	"../Resources/Images/Harrods Images/Jacket_Biker.png",
+    "name": 	"NFFBKJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Biker"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Blazer Jacket",
+    "image": 	"../Resources/Images/Harrods Images/Jacket_Blazer.png",
+    "name": 	"NFFBZJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Blazer"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Bomber Jacket",
+    "image": 	"../Resources/Images/Harrods Images/Jacket_Bomber.png",
+    "name": 	"NFFBMJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Bomber"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Field Jacket",
+    "image": 	"../Resources/Images/Harrods Images/Jacket_Cafe_Racer.png",
+    "name": 	"NFFFDJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Field"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Cafe Racer Jacket",
+    "image": 	"../Resources/Images/Harrods Images/Jacket_Field.png",
+    "name": 	"NFFCRJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Cafe Racer"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }
+],
+	
+"Gucci":[
+	
+    {	
+    "description":	"Limited edition Azure Bag",
+    "image": 	"../Resources/Images/Gucci Images/Bag_Azure.png",
+    "name": 	"NFFBGA000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Azure"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition Pink Bag",
+    "image": 	"../Resources/Images/Gucci Images/Bag_Pink.png",
+    "name": 	"NFFBGP000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Pink"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition Pearl glasses with Chain",
+    "image": 	 "../Resources/Images/Gucci Images/Glasses_Pearl_Chain.png",
+    "name": 	"NFFPLG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Pearl Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },		
+	
+    {	
+    "description":	"Limited edition Rose glasses with Chain",
+    "image": 	"../Resources/Images/Gucci Images/Glasses_Rose_Chain.png",
+    "name": 	"NFFRSG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Rose Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },		
+	
+    {	
+    "description":	"Limited edition Red CL shoes",
+    "image": 	"../Resources/Images/Gucci Images/Shoe_CL_Red.png",
+    "name": 	"NFFCLS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"CL Red"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition Gucci sneakers",
+    "image": 	"../Resources/Images/Gucci Images/Shoe_Gucci_Sneaker.png",
+    "name": 	"NFFGCS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Gucci Sneakers"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition Hightop shoes",
+    "image": 	"../Resources/Images/Gucci Images/Shoe_Hightop.png",
+    "name": 	"NFFHTS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Hightop"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }
+],
+	
+"WatchSwiss":[
+    {	
+    "description":	"Limited edition Mens Omega Watch",
+    "image": 	"../Resources/Images/WatchSwiss Images/Watches_Omega.png",
+    "name": 	"NFFOGW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Omega"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+    {	
+    "description":	"Limited edition Mens Patek Philippe Watch",
+    "image": 	"../Resources/Images/WatchSwiss Images/Watches_Patek_Philippe.png",
+    "name": 	"NFFPPW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Patek Phillippe"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+
+    {	
+    "description":	"Limited edition Mens Rolex Watch",
+    "image": 	"../Resources/Images/WatchSwiss Images/Watches_Rolex.png",
+    "name": 	"NFFRXW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Rolex"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }, 
+
+    {	
+    "description":	"Limited edition Mens Tagheuer Watch",
+    "image": 	"../Resources/Images/WatchSwiss Images/Watches_Tagheuer.png",
+    "name": 	"NFFTHW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Tagheure"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+	
+    {	
+    "description":	"Limited edition Mens Vacheron Constantin Watch",
+    "image": 	"../Resources/Images/WatchSwiss Images/Watches_Vacheron_Constantin.png",
+    "name": 	"NFFVCW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Vacheron Constantin"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]
+    }
+]	
+}	

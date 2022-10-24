@@ -1,4 +1,5 @@
 # Import Libraries
+import io
 from secrets import choice
 import streamlit as st
 from PIL import Image
@@ -6,6 +7,7 @@ from pathlib import Path
 from streamlit_image_comparison import image_comparison
 import streamlit.components.v1 as components
 import os
+import io
 import json
 from web3 import Web3
 from dotenv import load_dotenv
@@ -13,6 +15,12 @@ import base64
 from pinata import pin_file_to_ipfs, convert_data_to_json, pin_json_to_ipfs
 
 load_dotenv()
+
+# load in images and MetaData from json
+with open('all_data.json') as all_data:
+   json.load('all_data.json')
+
+
 
 # Define and connect a new Web3 provider
 w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
@@ -33,7 +41,7 @@ with col2:
 with col3:
     st.write("")
 
-# Setup for visualisations        
+# Setup for visualisations with image slider     
 image_comparison(
 img1="../Resources/Images/shoes.png",
 img2="../Resources/Images/wallet.png",
@@ -75,8 +83,9 @@ def load_contract():
 # Load the contract
 contract = load_contract()
 
-# Account connection in UI
-account_opt_dict = {
+# Account connections in UI
+# Vendors accounts and vendorlist for selection
+account_opt_dict = { 
     "Prada": "0xA3D3A0c7D7Ed93Bbd087bBB69577857aC52ca8Ec",
     "DandG" : "0x0e67bed69550a19589E481e0AF911b9939405136",
     "Gucci" : "0x576e2eE34Ad4E1A9842446f7ca12e7CFA47B6d7D",
@@ -84,6 +93,8 @@ account_opt_dict = {
     "Harrods" : " 0xD9E0727CBD11023837d3d812Fc42E0154dC9FDa6 "
     
 }
+
+
 
 if 'brand' not in st.session_state:
     st.session_state.brand = ''
@@ -93,8 +104,11 @@ accounts = account_opt_dict.keys()
 # st.write(accounts)
 choice = st.selectbox("Select Brand:", options=accounts)
 
+
 vendor = account_opt_dict[choice]
-brand = choice  # do ineed this?
+brand = choice  
+
+all_data.choice
 
 
 
@@ -102,6 +116,7 @@ st.write(choice, "uses this wallet to pay into")
 st.write(vendor)
 selection = ()
 img_list = []
+# Customers account (as would be selected during Login process)
 buyer = "0x3129C700695F3408dE351dBD96d3B995909dF298"
 
 st.write("### Exclusive selections from the ",brand, "designer range" )
@@ -110,56 +125,25 @@ st.write("### Exclusive selections from the ",brand, "designer range" )
 url = "https://gateway.pinata.cloud/ipfs/"
 
 
-items = {
-"Prada" : 
-    ["../Resources/Images/Prada Images/Bag_Beige.png",
-    "../Resources/Images/Prada Images/Bag_Blue.png",
-    "../Resources/Images/Prada Images/Bag_Grey.png",
-    "../Resources/Images/Prada Images/Glasses_Dark_Rad.png",
-    "../Resources/Images/Prada Images/Shoe_Chelsea.png",
-    "../Resources/Images/Prada Images/Shoe_Rad_Black.png",
-    "../Resources/Images/Prada Images/Shoe_Shiny_Choo.png"],
-"DandG" :
-    ["../Resources/Images/DandG Images/Bag_Leather.png",
-    "../Resources/Images/DandG Images/Bag_Maroon.png",
-    "../Resources/Images/DandG Images/Bag_White.png",
-    "../Resources/Images/DandG Images/Glasses_Black_Gold.png",
-    "../Resources/Images/DandG Images/Glasses_DG_Chain.png",
-    "../Resources/Images/DandG Images/Glasses_Pink.png",
-    "../Resources/Images/DandG Images/Shoe_Sneakers.png"],
-"Harrods" :
-    ["../Resources/Images/Harrods Images/Glasses_Black_Ray.png",
-    "../Resources/Images/Harrods Images/Jacket_Biker.png",
-    "../Resources/Images/Harrods Images/Jacket_Blazer.png",
-    "../Resources/Images/Harrods Images/Jacket_Bomber.png",
-    "../Resources/Images/Harrods Images/Jacket_Cafe_Racer.png",
-    "../Resources/Images/Harrods Images/Jacket_Field.png"],
-"Gucci" :
-    ["../Resources/Images/Gucci Images/Bag_Azure.png",
-    "../Resources/Images/Gucci Images/Bag_Pink.png",
-    "../Resources/Images/Gucci Images/Glasses_Pearl_Chain.png",
-    "../Resources/Images/Gucci Images/Glasses_Rose_Chain.png",
-    "../Resources/Images/Gucci Images/Shoe_CL_Red.png",
-    "../Resources/Images/Gucci Images/Shoe_Gucci_Sneaker.png",
-    "../Resources/Images/Gucci Images/Shoe_Hightop.png"],
-"WatchSwiss" :
-    ["../Resources/Images/WatchSwiss Images/Watches_Omega.png",
-    "../Resources/Images/WatchSwiss Images/Watches_Patek_Philippe.png",
-    "../Resources/Images/WatchSwiss Images/Watches_Rolex.png",
-    "../Resources/Images/WatchSwiss Images/Watches_Tagheuer.png",
-    "../Resources/Images/WatchSwiss Images/Watches_Vacheron_Constantin.png"]   
-}
+
+
+# sharing addresses with Web3 for transacting
 address = w3.eth.accounts[0]
 buyer = Web3.toChecksumAddress(address)
 
-for i in items[choice]:
-    st.image(i)
+# for i in all_data.choice:
+#     i.name
+# Displaying products with a BuyNow button to activate transaction and NFT creation for selected product
+#for i in items[choice]:
+for i in all_data.choice:    
+    st.image(i.image)
     if st.button(label="Buy now", key = {i}):
         ipfs_hash = pin_file_to_ipfs(i)
         item_uri = f"ipfs://{ipfs_hash}"
         token_json = {
-            "name": choice,
-            "image": item_uri
+            "name": i.name,
+            "image": item_uri,
+            "description": i.description
         }
         json_data = convert_data_to_json(token_json)
 
@@ -174,9 +158,14 @@ for i in items[choice]:
         st.write("Transaction Complete. Your product is being despatched Express Delivery:") 
         st.write(' <---- see  NFT Receipt Details')
         st.sidebar.write('## NFT and Transaction receipt mined')
-        st.sidebar.write(dict(receipt))
-        st.sidebar.image(item_uri)
+        #st.sidebar.write(dict(receipt))
+        st.write(item_uri)
+        st.sidebar.image(i)
+        
     st.markdown("---")
+
+    # st.session_state.the_image = Image.open(io.BytesIO(st.session_state.artifact.binary)) st.session_state.img_byte_arr = io.BytesIO(st.session_state.artifact.binary)
+
 
 
 

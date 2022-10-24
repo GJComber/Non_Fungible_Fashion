@@ -1,344 +1,462 @@
-[{	
-"description":	"Limited edition Mens Rolex Watch",
-"image": 	"ipfs//QmfKbjghewk34YU6yNTArchX6Lm25iz5WQ9qJRxrSodyzD",
-"name": 	"NFFRXW000001",
-"attributes": 	
-[	
-{"trait_type": 	"Watch",
-"value": 	"Rolex"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},
 
-	
-{	
-"description":	"Limited edition Mens Omega Watch",
-"image": 	"ipfs//QmaMdqhJ73CaQ6EGr9jBhVGvhq6NnnLkTVGCth9gCmenA8",
-"name": 	"NFFOGW000001",
-"attributes": 	
-[	
-{"trait_type": 	"Watch",
-"value": 	"Omega"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},
-	
-	
-{	
-"description":	"Limited edition Mens Patek Philippe Watch",
-"image": 	"ipfs//QmRJhf6kFvMSzEA5TcgUM4GjLBig4ddEWKxeNt2pSG8F6E",
-"name": 	"NFFPPW000001",
-"attributes": 	
-[	
-{"trait_type": 	"Watch",
-"value": 	"Patek Phillippe"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Mens Tagheuer Watch",
-"image": 	"ipfs//QmWxFetLjU3vAT43U9RwxkN7utr3PUmTzMhCQUNQcmx22H",
-"name": 	"NFFTHW000001",
-"attributes": 	
-[	
-{"trait_type": 	"Watch",
-"value": 	"Tagheure"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Mens Vacheron Constantin Watch",
-"image": 	"ipfs//QmbqgGWo1CVVGD7k87CuHc54V1WWP6UyaTKSWWdz7hjr2T",
-"name": 	"NFFVCW000001",
-"attributes": 	
-[	
-{"trait_type": 	"Watch",
-"value": 	"Vacheron Constantin"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Black & Gold Glasses",
-"image": 	"ipfs//QmfWTNA1B2y85rUTGLrUgNRpeBWmUDHHXke7hA2oiwL11U",
-"name": 	"NFFBGG000001",
-"attributes": 	
-[	
-{ "trait_type": 	"Glasses",
-"value": 	"Black Gold"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-	
-{	
-"description":	"Limited edition Ray Ban Glasses",
-"image": 	"ipfs//QmRoVwMejmuq1M4mk62meVNotYdjtiWGZVCVftmySZj5GT",
-"name": 	"NFFRBG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Black Ray Ban"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Dark Prada Glasses",
-"image": 	"ipfs//QmQjL3b2PBFmo3xqgnQWm59vEBVz2GQruH1oYxkHZwaFz2",
-"name": 	"NFFPDG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Dark Prada"}, 
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Dolce & Gabana glasses with chain",
-"image": 	"ipfs//QmXiji3BDzPs27D7v2GTr3hhnk7ZYbpoBKR3fLownZyFVi",
-"name": 	"NFFDGG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Dolce & Gabana"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Pearl glasses with Chain",
-"image": 	"ipfs//QmZZLq93Emf3WPPKukAJVNPUgwUbjDxNAAHF2J813iBxZ9",
-"name": 	"NFFPLG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Pearl Chain"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-	
-{	
-"description":	"Limited edition Pink glasses with Chain",
-"image": 	"ipfs//Qmd9TMYggGcgBrDDSWmthWCJWT38pxmYUoeUfLEphewnvP",
-"name": 	"NFFPKG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Pink Chain"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Rose glasses with Chain",
-"image": 	"ipfs//QmdT38NtaXTPAHa4jtdoHLnFNLdxDx1q6nXwLXMmSYj8kM",
-"name": 	"NFFRSG000001",
-"attributes": 	
-[	
-{"trait_type": 	"Glasses",
-"value": 	"Rose Chain"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Biker Jacket",
-"image": 	"ipfs//QmR43LPfW4aweLSGk5yjJh3Wsk7dUq18TNeNyxX1tySeVF",
-"name": 	"NFFBKJ000001",
-"attributes": 	
-[	
-{"trait_type": 	"Jacket",
-"value": 	"Biker"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Blazer Jacket",
-"image": 	"ipfs//QmQceZmv7vwfRntB8r2b8cp7o5jaPUH94f1ZEFMqWgGvbS",
-"name": 	"NFFBZJ000001",
-"attributes": 	
-[	
-{"trait_type": 	"Jacket",
-"value": 	"Blazer"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-	
-{	
-"description":	"Limited edition Bomber Jacket",
-"image": 	"ipfs//QmcYvSX2AMkMUGYLBNqpWyE13QN8KxqXGw4n2NoMU1rSow",
-"name": 	"NFFBMJ000001",
-"attributes": 	
-[	
-{"trait_type": 	"Jacket",
-"value": 	"Bomber"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Field Jacket",
-"image": 	"ipfs//QmTFVcRVKWn6jGZkJ7zZmn3FYFvfZAcJSiCn5foDtq5rxt",
-"name": 	"NFFFDJ000001",
-"attributes": 	
-[	
-{"trait_type": 	"Jacket",
-"value": 	"Field"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Cafe Racer Jacket",
-"image": 	"ipfs//QmQ4WvDMvb7SLcbw6WRmFZcB2SMZ93Lac4DQPyPA7XvwVd",
-"name": 	"NFFCRJ000001",
-"attributes": 	
-[	
-{"trait_type": 	"Jacket",
-"value": 	"Cafe Racer"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Chelsea shoes",
-"image": 	"ipfs//QmWt7XRzoyByexqdRuUi8PwjQz7fMSWBrhRNcFZVVHhhrJ",
-"name": 	"NFFCHS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Chelsea"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-	
-{	
-"description":	"Limited edition",
-"image": 	"ipfs//QmX8dLLwBkBfzuWxC62aHrdWzTvVRLgeFAUcDeHa49UJ3Z",
-"name": 	"NFFCLS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"CL Red"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Gucci sneakers",
-"image": 	"ipfs//QmfKiWeQgSu2qGgiQaUhaXYMUhfJVGkDydXWn9cE8k1Rps",
-"name": 	"NFFGCS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Gucci Sneakers"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Hightop shoes",
-"image": 	"ipfs//QmWGMTcMMSF8bebcz6ZC2oAHYB175g8w6turjEh9EBUe2a",
-"name": 	"NFFHTS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Hightop"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition Prada Black shoes",
-"image": 	"ipfs//QmVimMJRoQoP2jFgUQkuHEkdieNKSuGmvASvijjLJdXhtS",
-"name": 	"NFFPDS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Black Prada"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-	
-{	
-"description":	"Limited edition Shiny Choo shoes",
-"image": 	"ipfs//QmYSTuZUmGhBiKk1iZjnTrD6y6YJ9HC8Gy79djUaQEmLtQ",
-"name": 	"NFFSCS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Shiny Choo"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-},	
-	
-{	
-"description":	"Limited edition White Sneakers",
-"image": 	"ipfs//QmVx2BT6k3Ko8wwpQ8ipXMqX1WN6eiDoSG7YtB1B5izVoQ",
-"name": 	"NFFWSS000001",
-"attributes": 	
-[	
-{"trait_type": 	"Shoes",
-"value": 	"Sneakers"},
-{ "trait_type": 	"build_number",
-"value": 	"001"
-}	
-]	
-}
+
+[
+    {	
+    "description":	"Limited edition Mens Rolex Watch",
+    "image": 	"ipfs//QmfKbjghewk34YU6yNTArchX6Lm25iz5WQ9qJRxrSodyzD",
+    "name": 	"NFFRXW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Rolex"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+
+        
+    {	
+    "description":	"Limited edition Mens Omega Watch",
+    "image": 	"ipfs//QmaMdqhJ73CaQ6EGr9jBhVGvhq6NnnLkTVGCth9gCmenA8",
+    "name": 	"NFFOGW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Omega"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+        
+        
+    {	
+    "description":	"Limited edition Mens Patek Philippe Watch",
+    "image": 	"ipfs//QmRJhf6kFvMSzEA5TcgUM4GjLBig4ddEWKxeNt2pSG8F6E",
+    "name": 	"NFFPPW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Patek Phillippe"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Mens Tagheuer Watch",
+    "image": 	"ipfs//QmWxFetLjU3vAT43U9RwxkN7utr3PUmTzMhCQUNQcmx22H",
+    "name": 	"NFFTHW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Tagheure"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Mens Vacheron Constantin Watch",
+    "image": 	"ipfs//QmbqgGWo1CVVGD7k87CuHc54V1WWP6UyaTKSWWdz7hjr2T",
+    "name": 	"NFFVCW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Watch",
+        "value": 	"Vacheron Constantin"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Black & Gold Glasses",
+    "image": 	"ipfs//QmfWTNA1B2y85rUTGLrUgNRpeBWmUDHHXke7hA2oiwL11U",
+    "name": 	"NFFBGG000001",
+    "attributes": 	
+    [	
+        { "trait_type": 	"Glasses",
+        "value": 	"Black Gold"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Ray Ban Glasses",
+    "image": 	"ipfs//QmRoVwMejmuq1M4mk62meVNotYdjtiWGZVCVftmySZj5GT",
+    "name": 	"NFFRBG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Black Ray Ban"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Dark Prada Glasses",
+    "image": 	"ipfs//QmQjL3b2PBFmo3xqgnQWm59vEBVz2GQruH1oYxkHZwaFz2",
+    "name": 	"NFFPDG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Dark Prada"}, 
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Dolce & Gabana glasses with chain",
+    "image": 	"ipfs//QmXiji3BDzPs27D7v2GTr3hhnk7ZYbpoBKR3fLownZyFVi",
+    "name": 	"NFFDGG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Dolce & Gabana"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Pearl glasses with Chain",
+    "image": 	"ipfs//QmZZLq93Emf3WPPKukAJVNPUgwUbjDxNAAHF2J813iBxZ9",
+    "name": 	"NFFPLG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Pearl Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Pink glasses with Chain",
+    "image": 	"ipfs//Qmd9TMYggGcgBrDDSWmthWCJWT38pxmYUoeUfLEphewnvP",
+    "name": 	"NFFPKG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Pink Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Rose glasses with Chain",
+    "image": 	"ipfs//QmdT38NtaXTPAHa4jtdoHLnFNLdxDx1q6nXwLXMmSYj8kM",
+    "name": 	"NFFRSG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Glasses",
+        "value": 	"Rose Chain"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Biker Jacket",
+    "image": 	"ipfs//QmR43LPfW4aweLSGk5yjJh3Wsk7dUq18TNeNyxX1tySeVF",
+    "name": 	"NFFBKJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Biker"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Blazer Jacket",
+    "image": 	"ipfs//QmQceZmv7vwfRntB8r2b8cp7o5jaPUH94f1ZEFMqWgGvbS",
+    "name": 	"NFFBZJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Blazer"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Bomber Jacket",
+    "image": 	"ipfs//QmcYvSX2AMkMUGYLBNqpWyE13QN8KxqXGw4n2NoMU1rSow",
+    "name": 	"NFFBMJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Bomber"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Field Jacket",
+    "image": 	"ipfs//QmTFVcRVKWn6jGZkJ7zZmn3FYFvfZAcJSiCn5foDtq5rxt",
+    "name": 	"NFFFDJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Field"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Cafe Racer Jacket",
+    "image": 	"ipfs//QmQ4WvDMvb7SLcbw6WRmFZcB2SMZ93Lac4DQPyPA7XvwVd",
+    "name": 	"NFFCRJ000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Jacket",
+        "value": 	"Cafe Racer"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Chelsea shoes",
+    "image": 	"ipfs//QmWt7XRzoyByexqdRuUi8PwjQz7fMSWBrhRNcFZVVHhhrJ",
+    "name": 	"NFFCHS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Chelsea"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition",
+    "image": 	"ipfs//QmX8dLLwBkBfzuWxC62aHrdWzTvVRLgeFAUcDeHa49UJ3Z",
+    "name": 	"NFFCLS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"CL Red"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Gucci sneakers",
+    "image": 	"ipfs//QmfKiWeQgSu2qGgiQaUhaXYMUhfJVGkDydXWn9cE8k1Rps",
+    "name": 	"NFFGCS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Gucci Sneakers"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Hightop shoes",
+    "image": 	"ipfs//QmWGMTcMMSF8bebcz6ZC2oAHYB175g8w6turjEh9EBUe2a",
+    "name": 	"NFFHTS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Hightop"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Prada Black shoes",
+    "image": 	"ipfs//QmVimMJRoQoP2jFgUQkuHEkdieNKSuGmvASvijjLJdXhtS",
+    "name": 	"NFFPDS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Black Prada"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Shiny Choo shoes",
+    "image": 	"ipfs//QmYSTuZUmGhBiKk1iZjnTrD6y6YJ9HC8Gy79djUaQEmLtQ",
+    "name": 	"NFFSCS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Shiny Choo"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition White Sneakers",
+    "image": 	"ipfs//QmVx2BT6k3Ko8wwpQ8ipXMqX1WN6eiDoSG7YtB1B5izVoQ",
+    "name": 	"NFFWSS000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Shoes",
+        "value": 	"Sneakers"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },
+    
+
+    {	
+    "description":	"Limited edition Azure Bag",
+    "image": 	"ipfs//QmUdBhaMekmpg9oQ3bb8zryuDdEAGsu3Q9WVSMibqnkHff",
+    "name": 	"NFFBGA000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Azure"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Beige Bag",
+    "image": 	"ipfs//QmU4kG4QNsqWf7YWTaVUt2fqw1TsYU7Duiyy5qM2DU9Hcv",
+    "name": 	"NFFBGB000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value":	"Beige"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Blue Bag",
+    "image": 	"ipfs//QmUhgfWwwp1Ztzt3pG5vMT4Zu4g1yEyTf25eotwVydkXPc",
+    "name": 	"NFFBBL000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Blue"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Grey Bag",
+    "image": 	"ipfs//QmeDQySaM3qhHdwJFd7crdLQ3o1jG4urUcSNMigiY1E9g1",
+    "name": 	"NFFBGG000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Grey"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Leather Bag",
+    "image": 	"ipfs//QmWnU6xGBhjYnm2nQB154vyjqMRyFe6Tgtgrg5cdKxDxLz",
+    "name": 	"NFFBGL000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Leather"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition Maroon Bag",
+    "image": 	"ipfs//QmRAoXPfAftGdc9734ZCAYmk9n9VA972SXGuBaRCC2smio",
+    "name": 	"NFFBGM000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Maroon"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+        
+    {	
+    "description":	"Limited edition Pink Bag",
+    "image": 	"ipfs//QmQeNbJGVNjR8Yx9fJnCHszdRwyYNH6Vxtdr7YMMBjVxv6",
+    "name": 	"NFFBGP000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"Pink"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    },	
+        
+    {	
+    "description":	"Limited edition White Bag",
+    "image": 	"ipfs//QmbnakQtcyJfDdfMG89KQTVZkkbAY8KSRN5PB8Bdut5ZjL",
+    "name": 	"NFFBGW000001",
+    "attributes": 	
+    [	
+        {"trait_type": 	"Bag",
+        "value": 	"White"},
+        { "trait_type": 	"build_number",
+        "value": 	"001"
+        }	
+    ]	
+    }	
 ]	
 	
